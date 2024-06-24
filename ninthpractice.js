@@ -5,11 +5,6 @@ let msgContainer=document.querySelector(".msg-container");
 let msg=document.querySelector("#msg");
 
 let turnO=true;//playerX,playerO
-
-//let arr=["apple","banana","litchi"];
-
-//2D array
-//let arr2=[["apple","litchi"] ,["potato","mushroom"], ["pants","shirts"]];
 const winPatterns=[
     [0,1,2],
     [0,3,6],
